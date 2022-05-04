@@ -5,9 +5,7 @@ import org.junit.Test;
 /**
  * test BFSSearch
  *
- * @author KaiXin on 2022-04-29
- * @version 1.8
- * @since1.5
+ * @author Haoran on 2022-04-29
  */
 public class RunEpuzzleBFS {
 
