@@ -31,7 +31,7 @@ public class EpuzzleState extends SearchState{
 
     /**
      * goalPredicate takes a SearchNode & returns a boolean if it's a goal
-     * 是否是目标状态
+     * 
      *
      * @param searcher
      */
