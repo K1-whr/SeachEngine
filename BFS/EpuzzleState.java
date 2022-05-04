@@ -31,8 +31,6 @@ public class EpuzzleState extends SearchState{
 
     /**
      * goalPredicate takes a SearchNode & returns a boolean if it's a goal
-     * 
-     *
      * @param searcher
      */
     @Override
@@ -48,8 +46,6 @@ public class EpuzzleState extends SearchState{
     /**
      * getSuccessors returns an ArrayList of states which are successors to the
      * current state in a given search
-     * 从这个状态出发可以到达的状态
-     *
      * @param searcher
      */
     @Override
@@ -87,8 +83,6 @@ public class EpuzzleState extends SearchState{
 
     /**
      * sameState: is this state identical to a given one?
-     * 这个状态是否与给定的状态相同
-     *
      * @param n2
      */
     @Override
