@@ -1,7 +1,3 @@
-
-
-
-
 import java.util.ArrayList;
 
 /**
@@ -17,7 +13,6 @@ public class EpuzzleState extends SearchState{
         this.localCost = localCost;
         this.estRemCost = estCost;
     }
-
 
     public int[][] getNow() {
         return now;
@@ -106,8 +101,6 @@ public class EpuzzleState extends SearchState{
         return dis;
     }
 
-
-
     @Override
     boolean sameState(SearchState n2) {
         if(n2 instanceof EpuzzleState){
@@ -117,8 +110,6 @@ public class EpuzzleState extends SearchState{
         System.out.println("different state");
         return false;
     }
-
-
 
     @Override
     public String toString() {
@@ -131,7 +122,6 @@ public class EpuzzleState extends SearchState{
         }
         return res;
     }
-
 
     /**
      * @Description: two matrix is Equal
