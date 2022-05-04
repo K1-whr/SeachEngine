@@ -5,9 +5,7 @@
 import java.util.ArrayList;
 
 /**
- * @author KaiXin on 2022-05-01
- * @version 1.8
- * @since1.5
+ * @author Haoran on 2022-04-20
  */
 public class EpuzzleState extends SearchState{
 
