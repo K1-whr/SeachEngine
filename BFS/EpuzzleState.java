@@ -1,5 +1,3 @@
-
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -12,10 +10,8 @@ public class EpuzzleState extends SearchState{
 
     private int[][] now = new int[3][3];
 
-
     public EpuzzleState(int[][] start) {
         this.now = start;
-
     }
 
     public int[][] getNow() {
@@ -25,7 +21,6 @@ public class EpuzzleState extends SearchState{
     public void setNow(int[][] now) {
         this.now = now;
     }
-
 
     /**
      * goalPredicate takes a SearchNode & returns a boolean if it's a goal
@@ -52,7 +47,6 @@ public class EpuzzleState extends SearchState{
         EpuzzleState state = (EpuzzleState)searcher.currentNode.getState();
 
         int[][] dir = new int[][]{{0,1},{0,-1},{1,0},{-1,0}};
-
 
         for(int i = 0; i < 3; ++i)
             for(int j = 0; j < 3; ++j){
