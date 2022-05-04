@@ -10,7 +10,7 @@ public class EpuzzleSearch extends Search{
         this.goal = goal;
     }
 
-    public String runSearch(EpuzzleState initState, String strat) {
-        return super.runSearch(initState, strat);
+    public String runSearch(EpuzzleState initState, String strategy) {
+        return super.runSearch(initState, strategy);
     }
 }
