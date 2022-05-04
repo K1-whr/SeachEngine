@@ -7,9 +7,7 @@ import org.junit.Test;
 /**
  * test the Astar search
  *
- * @author KaiXin on 2022-05-01
- * @version 1.8
- * @since1.5
+ * @author Haoran on 2022-04-20
  */
 public class RunEpuzzleAstar {
     static int[][] goal = new int[][]{{1,2,3},{4,5,6},{7,8,0}};
